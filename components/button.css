@@ -1,0 +1,13 @@
+.btn-primary {
+	background: #FF5500;
+	padding: 15px 15px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 5px;
+	font-family: "futura";
+	
+}
+
+a:hover{
+	background-color: #FF8142;

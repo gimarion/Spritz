@@ -1,0 +1,41 @@
+.spritz-card-container {
+            display: flex;
+            justify-content: space-around; /* Espace les éléments entre eux */
+            width: 80%;
+            max-width: 1200px;
+        }
+
+        .card {
+            background-color: #E4DACE;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.2s;
+            flex: 1 1 calc(33.333% - 20px); /* Permet de garder trois cartes alignées avec un espacement */
+            max-width: 300px;
+            margin: 0 10px; /* Espacement horizontal entre les cartes */
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5em;
+            margin: 0 0 10px;
+        }
+
+        .card-text {
+            color: #555;
+        }
+
+       

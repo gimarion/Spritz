@@ -1,0 +1,44 @@
+@import url(components/navbar.css);
+@import url(components/button.css);
+@import url(components/cards.css);
+
+h1, h2, h3{ 
+color: #FF5500;
+font-family: "futura";
+font-weight: 400;
+ }
+
+
+ .text-center { 
+text-align: center;
+  }
+
+p{
+	font-family: futura;
+
+ }
+
+.section{
+	text-align: justify;
+}
+
+.flex-center{ 
+display:flex;
+justify-content:center; 
+background-color: #FF5500;
+padding: 20px;
+border: 1px solid #000;
+margin: 20px auto
+
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.section { 
+font-family: futura;
+
+ }
